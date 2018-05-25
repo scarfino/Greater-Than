@@ -1,4 +1,8 @@
-//is number1 greater than number2?
+/*
+Figures if a number is greater than the other
+@scarfino 2018
+*/
+
 const isGreaterThan = (x, y) => {
   if (x > y) {
     return true;
