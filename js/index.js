@@ -1,9 +1,10 @@
 //is number1 greater than number2?
-function isGreaterThan(numberOne, numberTwo) {
-  return number * number;
-  if (numberOne > numberTwo) {
+const isGreaterThan = (x, y) => {
+  if (x > y) {
     return true;
   } else {
     return false;
   }
 }
+
+console.log(isGreaterThan(100, 1))
